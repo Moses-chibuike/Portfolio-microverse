@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard": "^29.0.0"
+  }
+}
