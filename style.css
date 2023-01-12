@@ -95,11 +95,12 @@ header {
   align-items: center;
 }
 
-.icon-tag:not(:first-child) {
-  margin: 0 0 0 16px;
-}
-
 .icon-tag {
   width: 1rem;
   height: 1rem;
 }
+
+.icon-tag:not(:first-child) {
+  margin: 0 0 0 16px;
+}
+
