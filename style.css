@@ -136,3 +136,34 @@ header {
   margin-top: 2rem;
   color: #b3bac5;
 }
+
+button {
+  width: 140px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border-radius: 10px;
+  border: 1px solid #dfe1e6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: auto;
+}
+
+.cards .card {
+  border-radius: 16px;
+  margin: 6rem auto 0;
+  height: auto;
+  width: 90%;
+  padding: 16px;
+  background: #fff;
+}
+
+.img {
+  flex: none;
+  padding: 0;
+  margin: auto;
+  height: 280px;
+  width: 100%;
+  border-radius: 8px;
+}
