@@ -227,3 +227,22 @@ h4 {
   width: 100%;
   padding-right: 0.8rem;
 }
+
+.skills {
+  word-spacing: 13.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 0.8rem;
+}
+
+hr {
+  margin: auto 1px;
+  height: 1px;
+  background: #dfe1e6;
+}
+
+.bg-white {
+  background-color: white;
+}
