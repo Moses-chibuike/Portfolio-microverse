@@ -189,7 +189,8 @@ button {
   width: 140px;
   height: 48px;
   font-weight: 500;
-  font-size: 17px;
+  font-family: poppins;
+  font-size: 15px;
   line-height: 24px;
   border-radius: 10px;
   text-align: center;
@@ -197,6 +198,7 @@ button {
   margin: auto;
   border: 1px solid #6070ff;
   border-radius: 8px;
+  background-color: #fff;
 }
 
 .cards .card {
