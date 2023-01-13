@@ -28,7 +28,6 @@ li {
   padding-left: 0;
 }
 
-
 header {
   display: flex;
   justify-content: space-between;
@@ -113,18 +112,6 @@ header {
   margin: 0 0 0 16px;
 }
 
-#Contact-me {
-  background: #6070ff;
-  border-top-left-radius: 80px;
-  background-image: url("/image/headerbg.png");
-  background-size: cover;
-  background-position: 100% 10%;
-  background-repeat: no-repeat;
-  height: auto;
-  width: 100%;
-  padding: 16px;
-}
-
 .contact {
   width: 327px;
   height: 102px;
@@ -145,6 +132,7 @@ header {
   text-align: center;
   color: #fff;
 }
+
 .container {
   padding-top: 5rem;
 }
@@ -181,37 +169,6 @@ header {
   color: #b3bac5;
 }
 
-.btn:enabled {
-  background-color: #fff;
-  color: #6070ff;
-}
-
-.btn:disabled {
-  background-color: #e5e5e5;
-  color: #5e6c84;
-  cursor: not-allowed;
-}
-
-.btn:hover {
-  background-color: #6070ff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  border-radius: 8px;
-  color: #fff;
-}
-
-.btn-big {
-  border-color: #6070ff;
-}
-
-.submit-btn:hover {
-  background-color: #3244e7;
-}
-
-.btn:active {
-  background-color: #2230d2;
-  color: #fff;
-}
-
 .btn {
   font-family: sans-serif;
   width: auto;
@@ -230,6 +187,36 @@ header {
   border-color: #6070ff;
 }
 
+.btn:hover {
+  box-shadow: 0 8px 16px #493df0;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #6070ff;
+}
+
+.btn:enabled {
+  background-color: #fff;
+  color: #6070ff;
+}
+
+.btn:disabled {
+  background-color: #e5e5e5;
+  color: #5e6c84;
+  cursor: not-allowed;
+}
+
+.btn-big {
+  border-color: #6070ff;
+}
+
+.submit-btn:hover {
+  background-color: #3244e7;
+}
+
+.btn:active {
+  background-color: #2230d2;
+  color: #fff;
+}
 
 .cards .card {
   border-radius: 16px;
