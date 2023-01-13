@@ -43,6 +43,17 @@ header {
   line-height: 20px;
 }
 
+.bg-languages {
+  margin: 0.7rem 0;
+  padding: 0.5rem;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+.bg-languages a {
+  margin-right: 0.8rem;
+}
+
 .main {
   padding: 16px;
   padding-bottom: 30px;
@@ -101,6 +112,38 @@ header {
   margin: 0 0 0 16px;
 }
 
+#Contact-me {
+  background: #6070ff;
+  border-top-left-radius: 80px;
+  background-image: url("/image/headerbg.png");
+  background-size: cover;
+  background-position: 100% 10%;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  padding: 16px;
+}
+
+.contact {
+  width: 327px;
+  height: 102px;
+  margin: auto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.contact-title {
+  margin: 70px auto 16px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  padding: 1rem 0 0;
+  text-align: center;
+  color: #fff;
+}
 .container {
   padding-top: 5rem;
 }
@@ -137,6 +180,11 @@ header {
   color: #b3bac5;
 }
 
+button:hover {
+  color: gray;
+  cursor: pointer;
+}
+
 button {
   width: 140px;
   height: 48px;
@@ -144,10 +192,11 @@ button {
   font-size: 17px;
   line-height: 24px;
   border-radius: 10px;
-  border: 1px solid #dfe1e6;
   text-align: center;
   letter-spacing: 0.03em;
   margin: auto;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
 }
 
 .cards .card {
