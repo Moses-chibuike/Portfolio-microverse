@@ -117,3 +117,22 @@ header {
   width: 340px;
   border-radius: 8px;
 }
+
+#lname {
+  margin-top: 1rem;
+  height: 48px;
+  width: 340px;
+  border-radius: 8px;
+}
+
+.subject {
+  margin: 0;
+}
+
+#subject {
+  border-radius: 8px;
+  height: 100px;
+  width: 340px;
+  margin-top: 2rem;
+  color: #b3bac5;
+}
