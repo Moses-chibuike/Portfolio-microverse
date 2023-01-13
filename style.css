@@ -100,3 +100,20 @@ header {
   height: 1rem;
   margin: 0 0 0 16px;
 }
+
+.container {
+  padding-top: 5rem;
+}
+
+.text-field {
+  height: 48px;
+  width: 327px;
+  margin: 0;
+  text-align: center;
+}
+
+#fname {
+  height: 48px;
+  width: 340px;
+  border-radius: 8px;
+}
