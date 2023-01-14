@@ -1,80 +1,134 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Hello-Microverse
+# 📗 Table of Contents
 
-> This is a project to display Hello Microverse.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+# 📖 Mobile Porfolio <a name="about-project"></a>
+
+**Mobile Portfolio** is a place to show my web development projects.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">CSS</a></li>
-  </ul>
-</details>
-
+HTML, CSS
 
 ### Key Features <a name="key-features"></a>
 
+- **Header**
+- **Work Section**
+- **About me**
 
-- **[Demonstrate Use of GitHub flow rules]**
-- **[Use gitignore files]**
-- **[Set up a linter for HTML and CSS]**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Getting Started
+## 🚀 Live Demo <a name="live-demo"></a>
 
-To get a local copy up and running follow these simple example steps.
+- [Live Demo Link]()
+- Right click > Inspect > Choose Mobile version
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+You can check the repo and see the desgin of the page
 
 ### Prerequisites
 
-Code Editor(VS Studio Code)
-Web Browser (Google Chrome recommended)
+Setup usual dev environment: VSCode, Live Server
 
-How to Run
-To run the project do the following:
+### Setup
 
-- Clone the repository into a folder
-- Open the folder with your code editor (say; VS Code)
-- Install Live Server Extension on VS Code
-- Open the index.html file
-- Click on Live Server button on the base of your VS Code
-- Wait for a new tab to open
-- Voila! Your project is Live. You can procceed to make changes to the files
+Clone this repository to your desired folder:
 
-## Author
+```sh
+  cd my-folder
+  git clone git@github.com:Moses-chibuike/Portfolio-microverse.git
+```
 
-- GitHub: [@moses](https://github.com/Moses-chibuike)
-- LinkedIn: [moses](https://www.linkedin.com/in/ezechukwu-chibuike/)
+### Usage
 
-## 🤝 Contributing
+To run the project, Run `Live Server` from VSCode.
+
+### Run tests
+
+Coming..
+
+
+### Deployment
+
+You can deploy this project using: Netlify, and some other hosting service: <a href="https://glitch.com/">glitch</a>, <a href="https://replit.com/">replit</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+
+👤 **Aya**
+
+- GitHub: [@Moses-chibuike](https://github.com/Moses-chibuike/)
+- Twitter: [Ezechukwuchibu2](https://twitter.com/Ezechukwuchibu2)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ezechukwu-chibuike/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Contact me section
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<!-- FUTURE FEATURES -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
+## ⭐️ Show your support <a name="support"></a>
 
-> Describe 1 - 3 features you will add to the project.
+If you like this project, give it a star.
 
-- [ ] **[add more CSS styles]**
-- [ ] **[Add more HTML elements]**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-## Show your support
+I would like to thank Microverse and my coding partners
 
-Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- Microverse
+- **How to make it mobile friendly?**
 
-## 📝 License
+  - Put a viewport tag in the header
+
+- **How to design the site?**
+
+  - Draw a mockup before start to code
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

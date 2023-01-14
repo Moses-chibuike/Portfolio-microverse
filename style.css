@@ -83,15 +83,17 @@ header {
 }
 
 .p {
-  font-size: 1rem;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 1.1rem;
   color: #69758a;
-  line-height: 1.4;
   font-weight: 400;
+  line-height: 24px;
 }
 
 .h4-connect {
-  color: #7f8be4;
-  font-size: 1rem;
+  color: #7f8cff;
+  font-size: 16px;
   font-weight: 200;
   margin: 0;
 }
@@ -225,6 +227,13 @@ header {
   width: 90%;
   padding: 16px;
   background: #fff;
+}
+
+.cardss {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 596px 596px 596px 596px;
+  grid-gap: 350px;
 }
 
 .img {
