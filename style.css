@@ -287,7 +287,7 @@ nav > i:hover {
 
 .tags {
   display: flex;
-  flex-direction: row;
+  float: left;
   margin-bottom: 20px;
   list-style: none;
   padding-left: 0;
