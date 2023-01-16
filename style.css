@@ -476,6 +476,7 @@ nav > i:hover {
 
 .tab-lang {
   display: flex;
+  float: left;
   flex-direction: row;
   align-items: center;
   padding: 5px 0;
