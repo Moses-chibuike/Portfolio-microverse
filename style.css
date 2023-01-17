@@ -541,3 +541,107 @@ li {
   font-size: 1.2rem;
   padding: 5px;
 }
+
+.last-section-mobile {
+  padding: 50px 20px;
+  background-image: url(./image-source/Frame.png);
+  background-color: #6070ff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+  gap: 40px;
+  border-top-left-radius: 100px;
+}
+
+.last-section-mobile h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.last-section-mobile p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #ebebff;
+}
+
+.mobile-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-1 {
+  width: 90vw;
+  height: 6vh;
+  border-radius: 5px;
+  border: none;
+  z-index: 2;
+  box-shadow: 0 0 5px;
+}
+
+.input-2 {
+  width: 90vw;
+  height: 20vh;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px;
+}
+
+.input-2::placeholder {
+  color: #b3bac5;
+  padding: 0 20px;
+  font-size: 1.2rem;
+}
+
+.input {
+  padding: 5px;
+  width: 85vw;
+  height: 5vh;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: 1px solid rgb(237, 232, 232);
+}
+.message-mobile {
+  width: 86vw;
+  padding: 5px;
+  height: 20vh;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: 1px solid rgb(237, 232, 232);
+}
+
+.button-contact {
+  width: 100%;
+  text-align: left;
+}
+
+.btn a {
+  font-size: 1.1rem;
+  color: #396df2;
+}
+
+fieldset {
+  border: none;
+}
+
+button {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #396df2;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #396df2;
+}

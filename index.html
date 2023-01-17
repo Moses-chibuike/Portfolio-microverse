@@ -168,64 +168,27 @@
             </section>
             </section>
 
-            <section id="contact-me">
-                <div class="contact-intro">
-                  <h2 class="contact-me-text">Contact me</h2>
-                  <p>
-                    If you have an application you are interested in <br />
-                    developing, a feature that you need built or a project <br />
-                    that needs coding. I’d love to help with it
-                  </p>
-                </div>
-                <form
-                  action="https://formspree.io/f/xbjbyzdq"
-                  method="post"
-                  class="form-container"
-                >
-                  <ul class="form-area">
-                    <li>
-                      <label></label>
-                      <input
-                        type="text"
-                        name="fname"
-                        placeholder="Name"
-                        maxlength="30"
-                        class="name-area"
-                        required
-                      />
-                    </label>
-                    </li>
-                    <li>
-                      <label>
-                      <input
-                        type="email"
-                        name="email"
-                        placeholder="email@address.com"
-                        class="email-area"
-                        required
-                      />
-                    </li>
-                    </label>
-                    <li>
-                      <label>
-                      <textarea
-                        name="message"
-                        placeholder="Write your message here"
-                        maxlength="500"
-                        cols="30"
-                        rows="10"
-                        class="text-area"
-                        required
-                      ></textarea>
-                    </label>
-                    </li>
-                    <br /><small></small>
-                    <li>
-                      <button type="submit" class="btn submit-btn">Get In Touch</button>
-                    </li>
-                  </ul>
-                </form>
-              </section>
+            <section class="last-section-mobile">
+                <h2>Contact me</h2>
+                    <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
+                    <form action="#" method="post">
+                        <fieldset class="mobile-contact">
+                            <label for="username">
+                                <input type="text" class="input" required name="username" maxlength="30" placeholder="Username">
+                            </label>
+                            <label for="email">
+                                <input type="email" class="input" required name="email" placeholder="name@domain.com">
+                            </label>
+                            <label for="message">
+                                <textarea name="message" class="message-mobile" required maxlength="500" placeholder="Write your message here"></textarea>
+                            </label>
+                            <div class="button-contact">
+                              <button type="submit" class="btn last-btn">Get in touch</button>
+                            </div>
+                        </fieldset>
+        
+                    </form>
+                </section>
         </div>    
         </div>
     </body>
