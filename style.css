@@ -626,4 +626,10 @@ fieldset {
     transition-property: padding-bottom;
     transition-duration: 1s;
   }
+
+  .lift:hover {
+    padding-bottom: 1rem;
+    transition-property: padding-bottom;
+    transition-duration: 1s;
+  }
 }
