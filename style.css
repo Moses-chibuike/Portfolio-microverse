@@ -24,7 +24,7 @@ li {
 }
 
 .logo a {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   white-space: nowrap;
   font-weight: 800;
   color: #6070ff;
@@ -57,20 +57,20 @@ li {
 }
 
 .about-me p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #344563;
   line-height: 1.5;
 }
 
 .main-section h1 {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   color: #172b4d;
   padding: 0 20px;
   line-height: 1.4;
 }
 
 .main-section p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #344563;
   padding: 0 20px;
   line-height: 1.5;
@@ -143,7 +143,7 @@ li {
 }
 
 .paragraph-description p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   line-height: 1.5;
   color: #344563;
 }
@@ -167,7 +167,7 @@ button {
   border-radius: 8px;
   border: 1px solid #396df2;
   margin-bottom: 10px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #396df2;
 }
 
@@ -177,7 +177,7 @@ button {
 }
 
 .framework li {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   line-height: 1.5;
   color: black;
@@ -202,12 +202,12 @@ button {
 }
 
 .About-me p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #344563;
 }
 
 .language-description {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: black;
 }
 
@@ -260,12 +260,12 @@ button {
 
 .contact-section h2 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   margin-top: 2rem;
 }
 
 .contact-section p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   color: #ebebff;
 }
@@ -296,7 +296,7 @@ button {
 .input-2::placeholder {
   color: #b3bac5;
   padding: 0 20px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .Works {
@@ -430,7 +430,7 @@ fieldset {
   }
 
   .nav-link li a {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding-left: 5rem;
     color: #344563;
   }
@@ -454,7 +454,7 @@ fieldset {
   }
 
   .main-section p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     width: 70%;
   }
 
@@ -501,7 +501,7 @@ fieldset {
   }
 
   .profile-description h5 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
   }
 
