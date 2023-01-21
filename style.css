@@ -600,7 +600,7 @@ fieldset {
   }
 
   .contact-section p {
-    padding: 0 14rem;
+    width: 5125px;
   }
 
   .contact-form {
@@ -609,7 +609,7 @@ fieldset {
 
   .input-contact {
     width: 35vw;
-    border-radius: 0;
+    border-radius: 2px;
   }
 
   .message-input {
