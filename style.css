@@ -620,4 +620,16 @@ fieldset {
   .button {
     text-align: center;
   }
+
+  .trans:hover {
+    padding-bottom: 2rem;
+    transition-property: padding-bottom;
+    transition-duration: 1s;
+  }
+
+  .lift:hover {
+    padding-bottom: 1rem;
+    transition-property: padding-bottom;
+    transition-duration: 1s;
+  }
 }
