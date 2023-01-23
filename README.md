@@ -41,7 +41,7 @@ HTML, CSS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](<a href="https://moses-chibuike.github.io/Portfolio-microverse/#main-section"></a>)
 - Right click > Inspect > Choose Mobile version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
