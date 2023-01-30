@@ -10,6 +10,7 @@ hamburger.addEventListener('click', () => {
 cancel.addEventListener('click', () => {
   mobileMenu.classList.remove('show');
   body.classList.remove('overflowHidden');
+
 });
 
 mobileLinks.forEach((item) => {
