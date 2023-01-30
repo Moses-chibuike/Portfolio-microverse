@@ -108,7 +108,10 @@ const data = [
     linkToSource: "https://github.com/PeteUgwu/Portfolio-set-up",
   },
 ];
-
+hamburger.addEventListener("click", () => {
+  mobileMenu.classList.add("show");
+  body.classList.add("overflowHidden");
+});
 mobileLinks.forEach((item) => {
   item.addEventListener("click", () => {
     mobileMenu.classList.remove("show");
