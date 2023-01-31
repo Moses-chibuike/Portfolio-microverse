@@ -178,7 +178,10 @@ const openModal = ({
   modalInner.innerHTML = display;
 };
 
-
+hamburger.addEventListener("click", () => {
+  mobileMenu.classList.add("show");
+  body.classList.add("overflowHidden");
+});
 
 mobileLinks.forEach((item) => {
   item.addEventListener('click', () => {
