@@ -32,8 +32,8 @@ const data = [
     ],
     stack: ['CANOPY', 'Back End Dev', 2015],
     mobileStack: ['CANOPY', 'Back End Dev', 2015],
-    linkToLiveVersion: 'https://peteugwu.github.io/Portfolio-set-up/',
-    linkToSource: 'https://github.com/PeteUgwu/Portfolio-set-up',
+    linkToLiveVersion: 'https://moses-chibuike.github.io/Portfolio-microverse/',
+    linkToSource: 'https://github.com/Moses-chibuike/Portfolio-microverse',
   },
   {
     id: 1,
@@ -56,8 +56,8 @@ const data = [
     ],
     stack: ['FACEBOOK', 'Full Stack Dev', 2015],
     mobileStack: ['CANOPY', 'Back End Dev', 2015],
-    linkToLiveVersion: 'https://peteugwu.github.io/Portfolio-set-up/',
-    linkToSource: 'https://github.com/PeteUgwu/Portfolio-set-up',
+    linkToLiveVersion: 'https://moses-chibuike.github.io/Portfolio-microverse/',
+    linkToSource: 'https://github.com/Moses-chibuike/Portfolio-microverse',
   },
   {
     id: 2,
@@ -80,8 +80,8 @@ const data = [
     ],
     stack: ['FACEBOOK', 'Full Stack Dev', 2015],
     mobileStack: ['CANOPY', 'Back End Dev', 2015],
-    linkToLiveVersion: 'https://peteugwu.github.io/Portfolio-set-up/',
-    linkToSource: 'https://github.com/PeteUgwu/Portfolio-set-up',
+    linkToLiveVersion: 'https://moses-chibuike.github.io/Portfolio-microverse/',
+    linkToSource: 'https://github.com/Moses-chibuike/Portfolio-microverse',
   },
   {
     id: 3,
@@ -104,79 +104,12 @@ const data = [
     ],
     stack: ['Uber', 'Lead Developer', 2018],
     mobileStack: ['CANOPY', 'Back End Dev', 2015],
-    linkToLiveVersion: 'https://peteugwu.github.io/Portfolio-set-up/',
-    linkToSource: 'https://github.com/PeteUgwu/Portfolio-set-up',
+    linkToLiveVersion: 'https://moses-chibuike.github.io/Portfolio-microverse/',
+    linkToSource: 'https://github.com/Moses-chibuike/Portfolio-microverse',
   },
 ];
 
-const openModal = ({
-  name,
-  description,
-  desktopDescription,
-  featuredImage,
-  desktopFeaturedImage,
-  technologies,
-  stack,
-  mobileStack,
-  linkToLiveVersion,
-  linkToSource,
-}) => {
-  let display = '';
-  modal.classList.add('showModal');
-  display += `
-  <div>
-  <h2 class="modal-h2">${name}</h2>
-  <ul class="flex item-tag-modal item-tag">
-    
-    ${
-  isDesktop
-    ? `<li class="icon-tag"><a class="canopy" href="#">${stack[0]}</a></li>`
-    : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[0]}</a></li>`
-}
-    <li class="radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
-    ${
-  isDesktop
-    ? `<li class="icon-tag"><a class="bend-yr bend" href="#">${stack[1]}</a></li>`
-    : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[1]}</a></li>`
-}
-    <li class=" radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
-    ${
-  isDesktop
-    ? `<li class="icon-tag"><a class="bend-yr"href="#">${stack[2]}</a></li>`
-    : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[2]}</a></li>`
-}
-  </ul>
-  <div class="image img-modal ">
-    <img src=${isDesktop ? desktopFeaturedImage : featuredImage} alt="Project"/>
-  </div>
-  <div class="flex-modal">
-    <p class="p p-modal">
-     ${isDesktop ? desktopDescription : description}
-    </p>
-    
-    <div class="langbutton langbutton-modal">
-    <div class= "modal-btn">
-      <button>${technologies[0]}</button>
-      <button>${technologies[1]}</button>
-      <button>${technologies[2]}</button>
-      ${isDesktop ? `<button>${technologies[3]}</button>` : ''}
-      ${isDesktop ? `<button>${technologies[4]}</button>` : ''}
-      ${isDesktop ? `<button>${technologies[5]}</button>` : ''}
-    </div>
-      <hr class="modal-new">
-      
-      <div class="popup-buttons flex div">
-      
-      <a href=${linkToLiveVersion} target= "_blank" class="btn-modal btn">See Live <img src="./images/IconModal.png" alt="Live Icon " /></a>
-        <a href=${linkToSource} target= "_blank" class="btn-modal btn">See Source <img src="./images/VectorModal.png" alt="Source Icon" /></a>
-    </div>
-    
-    </div>
-    </div>
-</div>
-</section>`;
-  modalInner.innerHTML = display;
-};
+
 
 hamburger.addEventListener('click', () => {
   mobileMenu.classList.add('show');
@@ -194,14 +127,6 @@ mobileLinks.forEach((item) => {
   });
 });
 
-const loadModal = (i) => {
-  const singleData = data.find((item) => item.id === i);
-  openModal(singleData);
-};
-
-cancelsModal.addEventListener('click', () => {
-  modal.classList.remove('showModal');
-});
 
 const loadWorks = (data) => {
   let display = ' ';

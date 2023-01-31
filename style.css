@@ -681,6 +681,8 @@ small {
 
   .nav-container .fa-bars {
     display: none;
+    width: 40px;
+    height: 40px;
   }
 
   .desktop-image {
