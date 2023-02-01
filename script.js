@@ -3,9 +3,6 @@ const mobileMenu = document.querySelector('.mobile-menu');
 const cancel = document.querySelector('.cancel');
 const body = document.querySelector('body');
 const mobileLinks = document.querySelectorAll('.nav-mobile');
-const modal = document.querySelector('.modal');
-const modalInner = document.querySelector('.modal-inner');
-const cancelsModal = document.querySelector('.cancels');
 const works = document.querySelector('#Portfolio');
 const width = window.innerWidth;
 const isDesktop = width > 768;
@@ -109,8 +106,6 @@ const data = [
   },
 ];
 
-
-
 hamburger.addEventListener('click', () => {
   mobileMenu.classList.add('show');
   body.classList.add('overflowHidden');
@@ -126,7 +121,6 @@ mobileLinks.forEach((item) => {
     body.classList.remove('overflowHidden');
   });
 });
-
 
 const loadWorks = (data) => {
   let display = ' ';
