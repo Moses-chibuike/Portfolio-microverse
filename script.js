@@ -178,14 +178,14 @@ const openModal = ({
   modalInner.innerHTML = display;
 };
 
-hamburger.addEventListener("click", () => {
-  mobileMenu.classList.add("show");
-  body.classList.add("overflowHidden");
+hamburger.addEventListener('click', () => {
+  mobileMenu.classList.add('show');
+  body.classList.add('overflowHidden');
 });
 
-cancel.addEventListener("click", () => {
-  mobileMenu.classList.remove("show");
-  body.classList.remove("overflowHidden");
+cancel.addEventListener('click', () => {
+  mobileMenu.classList.remove('show');
+  body.classList.remove('overflowHidden');
 });
 
 mobileLinks.forEach((item) => {
