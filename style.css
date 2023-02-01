@@ -212,7 +212,7 @@ div .img-modal {
 }
 
 .nav-container {
-  width: 80%;
+  width: 90%;
   color: #6070ff;
 }
 
@@ -681,8 +681,6 @@ small {
 
   .nav-container .fa-bars {
     display: none;
-    width: 40px;
-    height: 40px;
   }
 
   .desktop-image {
