@@ -143,7 +143,7 @@ a {
   padding: 1rem;
   height: auto;
   margin: 25px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .cancels {
@@ -168,7 +168,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:0rem auto 0;
+  margin: 0 auto 0;
 }
 
 .langbutton-modal {
@@ -188,7 +188,7 @@ div .img-modal {
 }
 
 .btn-modal img {
-  padding-left: 0rem;
+  padding-left: 0;
   width: 15px;
 }
 
@@ -357,7 +357,7 @@ h4 {
 }
 
 .item-tag {
-  margin: 0 0rem 0 0;
+  margin: 0 0 0 0;
 }
 
 .canopy {
@@ -1134,7 +1134,7 @@ small {
 
   .popup-buttons {
     display: flex;
-    margin: 0rem 0;
+    margin: 0 0;
   }
 
   .modal-btn {
