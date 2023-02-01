@@ -119,7 +119,7 @@ a {
 .modal {
   position: fixed;
   width: 100%;
-  height: fit-content;
+  height: auto;
   top: 0;
   left: 0;
   bottom: 0;
@@ -142,8 +142,6 @@ a {
   border-radius: 20px;
   padding: 1rem;
   height: auto;
-  margin: 25px;
-  padding-bottom: 0;
 }
 
 .cancels {
@@ -160,7 +158,7 @@ a {
 }
 
 .flex .btn-modal {
-  padding: 0.6rem 0.5rem 1rem;
+  padding: 0.5rem 0.5rem 1rem;
   margin: 0.5rem;
 }
 
@@ -168,7 +166,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 0;
+  margin: 1rem auto 0;
 }
 
 .langbutton-modal {
@@ -188,8 +186,7 @@ div .img-modal {
 }
 
 .btn-modal img {
-  padding-left: 0;
-  width: 15px;
+  padding-left: 0.3rem;
 }
 
 .landing {
@@ -215,7 +212,7 @@ div .img-modal {
 }
 
 .nav-container {
-  width: 80%;
+  width: 90%;
   color: #6070ff;
 }
 
@@ -304,7 +301,7 @@ h4 {
 
 .image {
   width: 100%;
-  height: 150px;
+  height: 220px;
   border-radius: 8px;
 }
 
@@ -357,7 +354,7 @@ h4 {
 }
 
 .item-tag {
-  margin: 0 0 0 0;
+  margin: 0 3rem 0 0;
 }
 
 .canopy {
@@ -412,10 +409,11 @@ button:not(:first-child) {
 
 .btn {
   font-family: "Poppins", sans-serif;
+  width: auto;
   padding: 0 0.6rem;
   height: 48px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px;
   border-radius: 10px;
   border: 1px solid #dfe1e6;
@@ -489,8 +487,7 @@ button:not(:first-child) {
 hr {
   margin: auto 1px;
   height: 1px;
-  background: #f3f4f7;
-  color: rgb(209, 209, 209);
+  background: #dfe1e6;
 }
 
 .contact-about-bg {
@@ -1057,7 +1054,6 @@ small {
 
   #logo {
     margin-left: 9.688rem;
-    animation: spin 2s;
     transition: transform 0.4s ease-in-out;
   }
 
@@ -1134,7 +1130,7 @@ small {
 
   .popup-buttons {
     display: flex;
-    margin: 0 0;
+    margin: 1rem 0;
   }
 
   .modal-btn {

@@ -3,9 +3,6 @@ const mobileMenu = document.querySelector('.mobile-menu');
 const cancel = document.querySelector('.cancel');
 const body = document.querySelector('body');
 const mobileLinks = document.querySelectorAll('.nav-mobile');
-const modal = document.querySelector('.modal');
-const modalInner = document.querySelector('.modal-inner');
-const cancelsModal = document.querySelector('.cancels');
 const works = document.querySelector('#Portfolio');
 const width = window.innerWidth;
 const isDesktop = width > 768;
@@ -17,9 +14,9 @@ const data = [
     mainDescription:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     desktopDescription:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featuredImage: './images/Snapshoot1.png',
     desktopFeaturedImage: './images/Snap.png',
     technologies: [
@@ -41,9 +38,9 @@ const data = [
     mainDescription:
       'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     description:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     desktopDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featuredImage: './images/Snapshoot2.png',
     desktopFeaturedImage: './images/Snap2.png',
     technologies: [
@@ -65,9 +62,9 @@ const data = [
     mainDescription:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     description:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     desktopDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featuredImage: './images/Snapshoot3.png',
     desktopFeaturedImage: './images/Snap3.png',
     technologies: [
@@ -89,7 +86,7 @@ const data = [
     mainDescription:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     description:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     desktopDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featuredImage: './images/Snapshoot4.png',
@@ -109,80 +106,10 @@ const data = [
   },
 ];
 
-const openModal = ({
-  name,
-  description,
-  desktopDescription,
-  featuredImage,
-  desktopFeaturedImage,
-  technologies,
-  stack,
-  mobileStack,
-  linkToLiveVersion,
-  linkToSource,
-}) => {
-  let display = '';
-  modal.classList.add('showModal');
-  display += `
-  <div>
-  <h2 class="modal-h2">${name}</h2>
-  <ul class="flex item-tag-modal item-tag">
-    
-    ${
-  isDesktop
-    ? `<li class="icon-tag"><a class="canopy" href="#">${stack[0]}</a></li>`
-    : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[0]}</a></li>`
-}
-    <li class="radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
-    ${
-  isDesktop
-    ? `<li class="icon-tag"><a class="bend-yr bend" href="#">${stack[1]}</a></li>`
-    : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[1]}</a></li>`
-}
-    <li class=" radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
-    ${
-  isDesktop
-    ? `<li class="icon-tag"><a class="bend-yr"href="#">${stack[2]}</a></li>`
-    : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[2]}</a></li>`
-}
-  </ul>
-  <div class="image img-modal ">
-    <img src=${isDesktop ? desktopFeaturedImage : featuredImage} alt="Project"/>
-  </div>
-  <div class="flex-modal">
-    <p class="p p-modal">
-     ${isDesktop ? desktopDescription : description}
-    </p>
-    
-    <div class="langbutton langbutton-modal">
-    <div class= "modal-btn">
-      <button>${technologies[0]}</button>
-      <button>${technologies[1]}</button>
-      <button>${technologies[2]}</button>
-      ${isDesktop ? `<button>${technologies[3]}</button>` : ''}
-      ${isDesktop ? `<button>${technologies[4]}</button>` : ''}
-      ${isDesktop ? `<button>${technologies[5]}</button>` : ''}
-    </div>
-      <hr class="modal-new">
-      
-      <div class="popup-buttons flex div">
-      
-      <a href=${linkToLiveVersion} target= "_blank" class="btn-modal btn">See Live <img src="./images/IconModal.png" alt="Live Icon " /></a>
-        <a href=${linkToSource} target= "_blank" class="btn-modal btn">See Source <img src="./images/VectorModal.png" alt="Source Icon" /></a>
-    </div>
-    
-    </div>
-    </div>
-</div>
-</section>`;
-  modalInner.innerHTML = display;
-};
-
 hamburger.addEventListener('click', () => {
   mobileMenu.classList.add('show');
   body.classList.add('overflowHidden');
 });
-
 cancel.addEventListener('click', () => {
   mobileMenu.classList.remove('show');
   body.classList.remove('overflowHidden');
@@ -193,15 +120,6 @@ mobileLinks.forEach((item) => {
     mobileMenu.classList.remove('show');
     body.classList.remove('overflowHidden');
   });
-});
-
-const loadModal = (i) => {
-  const singleData = data.find((item) => item.id === i);
-  openModal(singleData);
-};
-
-cancelsModal.addEventListener('click', () => {
-  modal.classList.remove('showModal');
 });
 
 const loadWorks = (data) => {
@@ -272,6 +190,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const loadModalEle = document.querySelector('#loadModal');
   loadModalEle.addEventListener('click', () => {
-    loadModal(loadModalEle.value);
+
   });
 });
