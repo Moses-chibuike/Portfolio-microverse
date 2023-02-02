@@ -269,39 +269,25 @@ const loadWorks = (data) => {
 
 // storage sum
 let sum = {}
-document.addEventListener('keyup', => {
-          sum.name = name-area.value 
-          sum.email = email-area.value 
-          sum.text = text-area.value   
+document.addEventListener('keyup',() => {
+          sum.name = document.querySelector('.name-area').value
+          sum.email = document.querySelector('.email-area').value
+          sum.text = document.querySelector('.text-area').value 
   let sumdata = JSON.stringify(sum)   
  localStorage.setItem('sum', sumdata)
  }) 
 
+let setItem = () => {
+  let moses = JSON.parse(localStorage.getItem('sum'))
+  let declar = document.querySelector('.name-area')
+  let declarr = document.querySelector('.email-area')
+  let declarrr = document.querySelector('.text-area')
+  declar.value = moses.name
+  declarr.value = moses.email
+  declarrr.value = moses.text
+}
 
-
-window.addEventListener('DOMContentLoaded', () => {
-  loadWorks(data);
-  const emailData = window.localStorage.getItem('emailData');
-  const messageData = window.localStorage.getItem('messageData');
-  const nameData = window.localStorage.getItem('nameData');
-  if (emailData) {
-    const email = document.querySelector('.email-area');
-    email.value = emailData;
-  }
-  if (messageData) {
-    const message = document.querySelector('.text-area');
-    message.value = messageData;
-  }
-  if (nameData) {
-    const fullName = document.querySelector('.name-area');
-    fullName.value = nameData;
-  }
-
-  const loadModalEle = document.querySelector('#loadModal');
-  loadModalEle.addEventListener('click', () => {
-    loadModal(loadModalEle.value);
-  });
-});
+window.onload = setItem
 
 // form validation
 
@@ -311,15 +297,6 @@ const alertMsg = document.querySelector('small');
 const email = document.querySelector('.email-area');
 const message = document.querySelector('.text-area');
 const fullName = document.querySelector('.name-area');
-email.addEventListener('change', () => {
-  window.localStorage.setItem('emailData', email.value);
-});
-message.addEventListener('change', () => {
-  window.localStorage.setItem('messageData', message.value);
-});
-fullName.addEventListener('change', () => {
-  window.localStorage.setItem('nameData', fullName.value);
-});
 
 form.addEventListener('submit', (event) => {
   const email = document.querySelector('.email-area');
