@@ -267,37 +267,17 @@ const loadWorks = (data) => {
   works.innerHTML = display;
 };
 
-// storage sum
-let sum = {}
-document.addEventListener('keyup',() => {
-          sum.name = document.querySelector('.name-area').value
-          sum.email = document.querySelector('.email-area').value
-          sum.text = document.querySelector('.text-area').value 
-  let sumdata = JSON.stringify(sum)   
- localStorage.setItem('sum', sumdata)
- }) 
+window.addEventListener('DOMContentLoaded', () => {
+  loadWorks(data);
 
-let setItem = () => {
-  let moses = JSON.parse(localStorage.getItem('sum'))
-  let declar = document.querySelector('.name-area')
-  let declarr = document.querySelector('.email-area')
-  let declarrr = document.querySelector('.text-area')
-  declar.value = moses.name
-  declarr.value = moses.email
-  declarrr.value = moses.text
-}
-
-window.onload = setItem
-
-// form validation
+  const loadModalEle = document.querySelector('#loadModal');
+  loadModalEle.addEventListener('click', () => {
+    loadModal(loadModalEle.value);
+  });
+});
 
 const form = document.querySelector('form');
 const alertMsg = document.querySelector('small');
-
-const email = document.querySelector('.email-area');
-const message = document.querySelector('.text-area');
-const fullName = document.querySelector('.name-area');
-
 form.addEventListener('submit', (event) => {
   const email = document.querySelector('.email-area');
   const emailRegExp = /[A-Z]/;
@@ -308,3 +288,24 @@ form.addEventListener('submit', (event) => {
     alertMsg.innerText = 'Please Enter Your Email Only In Lower Case';
   }
 });
+// storage sum
+const sum = {};
+document.addEventListener('keyup', () => {
+  sum.name = document.querySelector('.name-area').value;
+  sum.email = document.querySelector('.email-area').value;
+  sum.text = document.querySelector('.text-area').value;
+  const sumdata = JSON.stringify(sum);
+  localStorage.setItem('sum', sumdata);
+});
+
+const setItem = () => {
+  const moses = JSON.parse(localStorage.getItem('sum'));
+  const declar = document.querySelector('.name-area');
+  const declarr = document.querySelector('.email-area');
+  const declarrr = document.querySelector('.text-area');
+  declar.value = moses.name;
+  declarr.value = moses.email;
+  declarrr.value = moses.text;
+};
+
+window.onload = setItem;
