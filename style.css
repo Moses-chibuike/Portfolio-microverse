@@ -1057,7 +1057,6 @@ small {
 
   #logo {
     margin-left: 9.688rem;
-    animation: spin 2s;
     transition: transform 0.4s ease-in-out;
   }
 
