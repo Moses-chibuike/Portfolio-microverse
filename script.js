@@ -278,7 +278,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
 const form = document.querySelector('form');
 const alertMsg = document.querySelector('small');
-
 form.addEventListener('submit', (event) => {
   const email = document.querySelector('.email-area');
   const emailRegExp = /[A-Z]/;
