@@ -269,9 +269,9 @@ const loadWorks = (data) => {
 
 window.addEventListener('DOMContentLoaded', () => {
   loadWorks(data);
-const emailData = window.localStorage.getItem('emailData');
-const messageData = window.localStorage.getItem('messageData');
-const nameData = window.localStorage.getItem('nameData');
+ const emailData = window.localStorage.getItem('emailData');
+ const messageData = window.localStorage.getItem('messageData');
+ const nameData = window.localStorage.getItem('nameData');
   if (emailData) {
     const email = document.querySelector('.email-area');
     email.value = emailData;
