@@ -267,6 +267,18 @@ const loadWorks = (data) => {
   works.innerHTML = display;
 };
 
+// storage sum
+let sum = {}
+document.addEventListener('keyup', => {
+          sum.name = name-area.value 
+          sum.email = email-area.value 
+          sum.text = text-area.value   
+  let sumdata = JSON.stringify(sum)   
+ localStorage.setItem('sum', sumdata)
+ }) 
+
+
+
 window.addEventListener('DOMContentLoaded', () => {
   loadWorks(data);
   const emailData = window.localStorage.getItem('emailData');
