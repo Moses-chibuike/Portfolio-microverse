@@ -269,8 +269,6 @@ const loadWorks = (data) => {
 
 window.addEventListener('DOMContentLoaded', () => {
   loadWorks(data);
-
-// Storage  
 const emailData = window.localStorage.getItem('emailData');
 const messageData = window.localStorage.getItem('messageData');
 const nameData = window.localStorage.getItem('nameData');
