@@ -270,14 +270,44 @@ const loadWorks = (data) => {
 window.addEventListener('DOMContentLoaded', () => {
   loadWorks(data);
 
+// Storage  
+
+  if (emailData) {
+    const email = document.querySelector('.email-area');
+    email.value = emailData;
+  }
+  if (messageData) {
+    const message = document.querySelector('.text-area');
+    message.value = messageData;
+  }
+  if (nameData) {
+    const fullName = document.querySelector('.name-area');
+    fullName.value = nameData;
+  }
+
   const loadModalEle = document.querySelector('#loadModal');
   loadModalEle.addEventListener('click', () => {
     loadModal(loadModalEle.value);
   });
 });
 
+// form validation
+
 const form = document.querySelector('form');
 const alertMsg = document.querySelector('small');
+
+const email = document.querySelector('.email-area');
+const message = document.querySelector('.text-area');
+const fullName = document.querySelector('.name-area');
+email.addEventListener('change', () => {
+  window.localStorage.setItem('emailData', email.value);
+});
+message.addEventListener('change', () => {
+  window.localStorage.setItem('messageData', message.value);
+});
+fullName.addEventListener('change', () => {
+  window.localStorage.setItem('nameData', fullName.value);
+});
 
 form.addEventListener('submit', (event) => {
   const email = document.querySelector('.email-area');
