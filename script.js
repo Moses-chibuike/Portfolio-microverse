@@ -288,6 +288,7 @@ form.addEventListener('submit', (event) => {
     alertMsg.innerText = 'Please Enter Your Email Only In Lower Case';
   }
 });
+
 // storage sum
 const sum = {};
 document.addEventListener('keyup', () => {
