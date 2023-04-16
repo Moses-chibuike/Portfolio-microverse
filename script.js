@@ -310,4 +310,3 @@ const setItem = () => {
 };
 
 window.onload = setItem;
-
