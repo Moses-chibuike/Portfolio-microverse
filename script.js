@@ -288,3 +288,26 @@ form.addEventListener('submit', (event) => {
     alertMsg.innerText = 'Please Enter Your Email Only In Lower Case';
   }
 });
+
+// storage sum
+const sum = {};
+document.addEventListener('keyup', () => {
+  sum.name = document.querySelector('.name-area').value;
+  sum.email = document.querySelector('.email-area').value;
+  sum.text = document.querySelector('.text-area').value;
+  const sumdata = JSON.stringify(sum);
+  localStorage.setItem('sum', sumdata);
+});
+
+const setItem = () => {
+  const moses = JSON.parse(localStorage.getItem('sum'));
+  const declar = document.querySelector('.name-area');
+  const declarr = document.querySelector('.email-area');
+  const declarrr = document.querySelector('.text-area');
+  declar.value = moses.name;
+  declarr.value = moses.email;
+  declarrr.value = moses.text;
+};
+
+window.onload = setItem;
+
